@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.screen {
+    height: 100vh; /* Полная высота экрана */
+    display: flex;
+    flex-direction: column;  /*Элементы в столбце располагаются сверху вниз*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero {
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: sticky; /* Закрепляет хэдер */
+    top: 0; /* Прилипает к верху экрана */
+    z-index: 100; /* Обеспечивает отображение поверх других элементов */
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.button {
+
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.4s ease;
+  }
+
+  .button:hover {
+    transform: scale(1.05);
+    border-radius: 50px;
+  }
+
+
